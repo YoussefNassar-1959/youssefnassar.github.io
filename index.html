@@ -11,14 +11,24 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		
 		<style>
-			.profile img {
-			  border-radius: 50%;
-			  width: 200px;
-			  height: 200px;
-			  object-fit: cover;
+			.profile {
+				display: flex;
+				align-items: center;
 			}
-		  </style>
+		
+			.profile img {
+				border-radius: 50%;
+				width: 250px;
+				height: 250px;
+				object-fit: cover;
+				margin-left: auto; /* Push the image to the right */
+				margin-right: 20px;
+				margin-top: 10px;
+			}
+		</style>
+		
 	</head>
 	<body class="is-preload">
 
@@ -32,6 +42,7 @@
 							<li><a href="#two">The engineer</a></li>
 							<li><a href="#three">The writer</a></li>
 							<li><a href="#four">The nerd</a></li>
+							<li><a href="#five">The afrikanist</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -41,19 +52,21 @@
 		<!-- Wrapper -->
 			<div id="wrapper">
 
-				<!-- Intro -->
-				<section id="intro" class="wrapper style1 fullscreen fade-up">
-					<div class="inner">
-					  <div class="profile">
-						<img src="\images\pic07.jpg" alt="" data-position="right">
-						<h1>Youssef Nassar</h1>
-					  </div>
-					  <p>You could just roam through different verses of 'me'</p>
-					  <ul class="actions">
-						<li><a href="#one" class="button scrolly">Venture</a></li>
-					  </ul>
-					</div>
-				  </section>
+<!-- Intro -->
+<section id="intro" class="wrapper style1 fullscreen fade-up">
+    <div class="inner">
+        <div class="profile">
+            <h1>Youssef Nassar</h1>
+            <img src="\images\pic07.jpg" alt="" data-position="right">
+        </div>
+        <p>Feel free to roam through different verses of 'me'</p>
+        <ul class="actions">
+            <li><a href="#one" class="button scrolly">Venture</a></li>
+        </ul>
+    </div>
+</section>
+
+
 
 
 				<!-- One -->
