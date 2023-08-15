@@ -12,39 +12,64 @@
 
     <!-- Your styles -->
     <style>
-        /* Existing background styles */
-        body {
-            background: linear-gradient(to right, #ff6b6b, #4ecdc4);
-            /* Add any other background styles here */
-        }
 
-        /* Styles for particles container */
-        #particles-container {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-        }
 
-        .profile {
-            display: flex;
-            align-items: center;
-        }
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px; /* Add some margin for spacing */
+}
 
-        .profile img {
-            border-radius: 50%;
-            width: 250px;
-            height: 250px;
-            object-fit: cover;
-            margin-left: auto;
-            margin-right: 22px;
-            margin-top: 10px;
-            border: 5px solid #ff6b6b;
-            box-shadow: 0 0 20px rgba(255, 107, 107, 0.6);
-        }
+.profile-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+/* Apply the funky font to headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Your Favourite Funky Font', cursive;
+}
+
+/* Apply the funky font to paragraphs and other text */
+p, span, div, a {
+    font-family: 'Your Favourite Funky Font', cursive;
+}
+
+
+
+.profile img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 5px solid #b74e91;
+    box-shadow: 0 0 20px rgba(255, 107, 107, 0.6);
+}
+
+.funky-name {
+    font-family: 'Your Favourite Funky Font', cursive;
+    font-size: 24px;
+    color: #953d75;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    animation: bounce 2s infinite;
+}
+
+    @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {
+            transform: translateY(0);
+        }
+        40% {
+            transform: translateY(-10px);
+        }
+        60% {
+            transform: translateY(-5px);
+        }
+    }
 
     </style>
 </head>
@@ -76,10 +101,16 @@
         <section id="intro" class="wrapper style1 fullscreen fade-up colorful">
             <div class="inner">
                 <div class="profile">
-                    <h1>Youssef's Hyperworld</h1>
-                    <img src="images\pic07.jpg" alt="" data-position="right">
+                    <div class="profile-image">
+                        <img src="images\pic07.jpg" alt="" data-position="right">
+                        <div class="funky-name">
+                            <span class="typewriter"></span>
+                        </div>
+                    </div>
                 </div>
-                <p>Step into my universe and explore different versions of 'me'!</p>
+                
+                <h1>My little diverse world...</h1>
+                <blockquote>“I think a singular identity isn't very interesting, <br> and I'm a little bit more multifaceted as a person than that.” <br>-Catherine Opie</blockquote>
                 <ul class="actions">
                     <li><a href="#one" class="button scrolly">Dive In</a></li>
                 </ul>
@@ -94,23 +125,23 @@
                 <div class="features">
                     <section>
                         <span class="icon solid major fa-school"></span>
-                        <h3>4.0 GPA</h3>
-                        <p>Embarked on an odyssey to conquer the peaks of academia, navigating the treacherous terrains of education to achieve a triumphant 4.0 GPA!</p>
+                        <h3>GPA</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab laboriosam magni corrupti necessitatibus eius fugiat, doloribus quibusdam eos expedita at voluptatum, quos labore, voluptatem beatae perferendis. Numquam porro nihil velit!</p>
                     </section>
                     <section>
                         <span class="icon solid major fa-lightbulb"></span>
-                        <h3>Creative Insights</h3>
-                        <p>Ignited my creative spark to innovate, ideate, and craft compelling narratives that light up the world.</p>
+                        <h3>Rank</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quod modi ducimus. Odio vel dolores nemo aliquid aperiam quas doloremque magni ducimus reiciendis reprehenderit repellat vitae explicabo, quibusdam voluptatum blanditiis!</p>
                     </section>
                     <section>
                         <span class="icon solid major fa-cogs"></span>
-                        <h3>Engineering Feats</h3>
-                        <p>Donned my engineering cape to tinker, troubleshoot, and engineer ingenious solutions that redefine the boundaries of possibility.</p>
+                        <h3>ACT</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At reprehenderit molestias necessitatibus nam autem. Sit architecto consequuntur, ducimus reprehenderit repudiandae deleniti laboriosam eveniet dolore magnam vero. Soluta hic fugit voluptate.</p>
                     </section>
                     <section>
                         <span class="icon solid major fa-code"></span>
-                        <h3>Geeky Pursuits</h3>
-                        <p>Ventured into the digital realms, deciphering the enigmatic codes that power our virtual universe.</p>
+                        <h3>IELTS</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque adipisci, earum, nesciunt repudiandae ex eum dolore facere quod amet, eius sit sint odit quidem nobis dicta aliquid? Consequuntur, doloremque laudantium.</p>
                     </section>
                 </div>
             </div>
@@ -187,6 +218,16 @@
                         <h3>Virtual Adventurer</h3>
                         <p>Embark on virtual quests and unravel the mysteries of digital worlds as a true gaming champion.</p>
                     </section>
+                    <section>
+                        <span class="icon solid major fa-gamepad"></span>
+                        <h3>Virtual Adventurer</h3>
+                        <p>Embark on virtual quests and unravel the mysteries of digital worlds as a true gaming champion.</p>
+                    </section>
+                    <section>
+                        <span class="icon solid major fa-gamepad"></span>
+                        <h3>Virtual Adventurer</h3>
+                        <p>Embark on virtual quests and unravel the mysteries of digital worlds as a true gaming champion.</p>
+                    </section>
                 </div>
             </div>
         </section>
@@ -196,6 +237,34 @@
             <section>
                 <a href="#" class="image"><img src="images/pic05.jpg" alt="" data-position="center center" /></a>
                 <div class="content">
+                    <div class="inner">
+                        <h2>Exploring Afrikanist Adventures</h2>
+                        <p>Venture with me into the heart of Africa, unraveling the rich tapestry of cultures and traditions.</p>
+                        <ul class="actions">
+                            <li><a href="generic.html" class="button">Learn more</a></li>
+                        </ul>
+                    </div>
+                    <div class="inner">
+                        <h2>Exploring Afrikanist Adventures</h2>
+                        <p>Venture with me into the heart of Africa, unraveling the rich tapestry of cultures and traditions.</p>
+                        <ul class="actions">
+                            <li><a href="generic.html" class="button">Learn more</a></li>
+                        </ul>
+                    </div>
+                    <div class="inner">
+                        <h2>Exploring Afrikanist Adventures</h2>
+                        <p>Venture with me into the heart of Africa, unraveling the rich tapestry of cultures and traditions.</p>
+                        <ul class="actions">
+                            <li><a href="generic.html" class="button">Learn more</a></li>
+                        </ul>
+                    </div>
+                    <div class="inner">
+                        <h2>Exploring Afrikanist Adventures</h2>
+                        <p>Venture with me into the heart of Africa, unraveling the rich tapestry of cultures and traditions.</p>
+                        <ul class="actions">
+                            <li><a href="generic.html" class="button">Learn more</a></li>
+                        </ul>
+                    </div>
                     <div class="inner">
                         <h2>Exploring Afrikanist Adventures</h2>
                         <p>Venture with me into the heart of Africa, unraveling the rich tapestry of cultures and traditions.</p>
@@ -230,15 +299,37 @@
     <script src="assets/js/main.js"></script>
 
     <script>
-        particlesJS("particles-container", { // Updated container ID
-            particles: {
-                // Particle configurations
-            },
-            interactivity: {
-                // Interactivity settings
-            },
-            retina_detect: true
-        });
+    const names = ["Youssef", "Engineer", "Academic", "Afrikanist","Writer", "Nerd"]; // Add your different names here
+    const typewriterElement = document.querySelector(".typewriter");
+
+    let currentNameIndex = 0;
+    let currentName = names[currentNameIndex];
+    let currentCharacterIndex = 0;
+
+    function typeNextCharacter() {
+        if (currentCharacterIndex < currentName.length) {
+            typewriterElement.textContent += currentName[currentCharacterIndex];
+            currentCharacterIndex++;
+            setTimeout(typeNextCharacter, 100); // Adjust the typing speed as needed
+        } else {
+            setTimeout(eraseName, 1000); // Adjust the pause before erasing
+        }
+    }
+
+    function eraseName() {
+        if (typewriterElement.textContent.length > 0) {
+            typewriterElement.textContent = typewriterElement.textContent.slice(0, -1);
+            setTimeout(eraseName, 50); // Adjust the erasing speed as needed
+        } else {
+            currentNameIndex = (currentNameIndex + 1) % names.length;
+            currentName = names[currentNameIndex];
+            currentCharacterIndex = 0;
+            setTimeout(typeNextCharacter, 500); // Adjust the pause before typing the next name
+        }
+    }
+
+    // Start the animation
+    setTimeout(typeNextCharacter, 500); // Adjust the i
     </script>
 </body>
 </html>
