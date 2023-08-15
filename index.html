@@ -1,226 +1,260 @@
 <!DOCTYPE HTML>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-	<head>
-		<title>Hyperspace by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		
-		<style>
-			.profile {
-				display: flex;
-				align-items: center;
-			}
-		
-			.profile img {
-				border-radius: 50%;
-				width: 250px;
-				height: 250px;
-				object-fit: cover;
-				margin-left: auto; /* Push the image to the right */
-				margin-right: 22px;
-				margin-top: 10px;
-			}
-		</style>
-		
-	</head>
-	<body class="is-preload">
+<head>
+    <title>Youssef's Hyperworld</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+    <script src="assets/js/particles.js"></script> <!-- Include particles.js library -->
 
-		<!-- Sidebar -->
-			<section id="sidebar">
-				<div class="inner">
-					<nav>
-						<ul>
-							<li><a href="#intro">Hello!</a></li>
-							<li><a href="#one">The academic</a></li>
-							<li><a href="#two">The engineer</a></li>
-							<li><a href="#three">The writer</a></li>
-							<li><a href="#four">The nerd</a></li>
-							<li><a href="#five">The afrikanist</a></li>
-						</ul>
-					</nav>
-				</div>
-			</section>
+    <!-- Your styles -->
+    <style>
+        /* Existing background styles */
+        body {
+            background: linear-gradient(to right, #ff6b6b, #4ecdc4);
+            /* Add any other background styles here */
+        }
 
+        /* Styles for particles container */
+        #particles-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+        .profile {
+            display: flex;
+            align-items: center;
+        }
 
-<!-- Intro -->
-<section id="intro" class="wrapper style1 fullscreen fade-up">
-    <div class="inner">
-        <div class="profile">
-            <h1>Youssef Nassar</h1>
-            <img src="images\pic07.jpg" alt="" data-position="right">
+        .profile img {
+            border-radius: 50%;
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            margin-left: auto;
+            margin-right: 22px;
+            margin-top: 10px;
+            border: 5px solid #ff6b6b;
+            box-shadow: 0 0 20px rgba(255, 107, 107, 0.6);
+        }
+    </style>
+</head>
+<body class="is-preload vibrant">
+    <div id="particles-container"></div> <!-- Particle animation container -->
+
+    <!-- Sidebar -->
+    <section id="sidebar">
+        <div class="inner">
+            <nav>
+                <ul>
+                    <li><a href="#intro">Hey there!</a></li>
+                    <li><a href="#one">Academic Me</a></li>
+                    <li><a href="#two">Engineer's Den</a></li>
+                    <li><a href="#three">Creative Spirit</a></li>
+                    <li><a href="#four">Geeky Side</a></li>
+                    <li><a href="#five">Afrikanist Explorer</a></li>
+                </ul>
+            </nav>
         </div>
-        <p>Feel free to roam through different verses of 'me'</p>
-        <ul class="actions">
-            <li><a href="#one" class="button scrolly">Venture</a></li>
-        </ul>
+    </section>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Intro -->
+        <section id="intro" class="wrapper style1 fullscreen fade-up colorful">
+            <div class="inner">
+                <div class="profile">
+                    <h1>Youssef's Hyperworld</h1>
+                    <img src="images\pic07.jpg" alt="" data-position="right">
+                </div>
+                <p>Step into my universe and explore different versions of 'me'!</p>
+                <ul class="actions">
+                    <li><a href="#one" class="button scrolly">Dive In</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- One -->
+        <section id="one" class="wrapper style3 fade-up colorful">
+            <div class="inner">
+                <h2>Unveiling the Nerdy Academic</h2>
+                <!-- Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.-->
+                <div class="features">
+                    <section>
+                        <span class="icon solid major fa-school"></span>
+                        <h3>4.0 GPA</h3>
+                        <p>Embarked on an odyssey to conquer the peaks of academia, navigating the treacherous terrains of education to achieve a triumphant 4.0 GPA!</p>
+                    </section>
+                    <section>
+                        <span class="icon solid major fa-lightbulb"></span>
+                        <h3>Creative Insights</h3>
+                        <p>Ignited my creative spark to innovate, ideate, and craft compelling narratives that light up the world.</p>
+                    </section>
+                    <section>
+                        <span class="icon solid major fa-cogs"></span>
+                        <h3>Engineering Feats</h3>
+                        <p>Donned my engineering cape to tinker, troubleshoot, and engineer ingenious solutions that redefine the boundaries of possibility.</p>
+                    </section>
+                    <section>
+                        <span class="icon solid major fa-code"></span>
+                        <h3>Geeky Pursuits</h3>
+                        <p>Ventured into the digital realms, deciphering the enigmatic codes that power our virtual universe.</p>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <!-- Two -->
+        <section id="two" class="wrapper style2 spotlights colorful">
+            <section>
+                <a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+                <div class="content">
+                    <div class="inner">
+                        <h2>Embark on a Journey</h2>
+                        <p>Join me on an expedition to uncharted territories of knowledge and creativity, where every step unveils new wonders.</p>
+                        <ul class="actions">
+                            <li><a href="generic.html" class="button">Learn more</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- Add similar sections for more vibrant content -->
+        </section>
+
+        <!-- Three -->
+        <section id="three" class="wrapper style1 fade-up colorful">
+            <div class="inner">
+                <h2>Connect with Me</h2>
+                <p>Reach out and let's create something amazing together. Share your thoughts, dreams, or even your favorite color!</p>
+                <div class="split style1">
+                    <section>
+                        <form method="post" action="#">
+                            <div class="fields">
+                                <div class="field half">
+                                    <label for="name">Name</label>
+                                    <input type="text" name="name" id="name" />
+                                </div>
+                                <div class="field half">
+                                    <label for="email">Email</label>
+                                    <input type="text" name="email" id="email" />
+                                </div>
+                                <div class="field">
+                                    <label for="message">Message</label>
+                                    <textarea name="message" id="message" rows="5"></textarea>
+                                </div>
+                            </div>
+                            <ul class="actions">
+                                <li><a href="" class="button submit vibrant">Send Message</a></li>
+                            </ul>
+                        </form>
+                    </section>
+                    <section>
+                        <ul class="contact">
+                            <li>
+                                <h3>Address</h3>
+                                <span>12345 Somewhere Road #654<br />
+                                Nashville, TN 00000-0000<br />
+                                USA</span>
+                            </li>
+                            <li>
+                                <h3>Email</h3>
+                                <a href="#">user@untitled.tld</a>
+                            </li>
+                            <li>
+                                <h3>Phone</h3>
+                                <span>(000) 000-0000</span>
+                            </li>
+                            <li>
+                                <h3>Social</h3>
+                                <ul class="icons">
+                                    <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                                    <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+                                    <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                                    <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                                    <li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <!-- Four -->
+        <section id="four" class="wrapper style3 fade-up colorful">
+            <div class="inner">
+                <h2>Exploring Geeky Wonders</h2>
+                <div class="features">
+                    <section>
+                        <span class="icon solid major fa-flask"></span>
+                        <h3>Experimental Explorer</h3>
+                        <p>Delving into the realms of science, I conduct wild experiments that challenge the laws of nature.</p>
+                    </section>
+                    <section>
+                        <span class="icon solid major fa-gamepad"></span>
+                        <h3>Virtual Adventurer</h3>
+                        <p>Embark on virtual quests and unravel the mysteries of digital worlds as a true gaming champion.</p>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <!-- Five -->
+        <section id="five" class="wrapper style2 spotlights colorful">
+            <section>
+                <a href="#" class="image"><img src="images/pic05.jpg" alt="" data-position="center center" /></a>
+                <div class="content">
+                    <div class="inner">
+                        <h2>Exploring Afrikanist Adventures</h2>
+                        <p>Venture with me into the heart of Africa, unraveling the rich tapestry of cultures and traditions.</p>
+                        <ul class="actions">
+                            <li><a href="generic.html" class="button">Learn more</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- Add similar sections for more vibrant content -->
+        </section>
+
     </div>
-</section>
 
+    <!-- Footer -->
+    <footer id="footer" class="wrapper style1-alt colorful">
+        <div class="inner">
+            <ul class="menu">
+                <li>&copy; Youssef's Hyperworld. All rights reserved.</li>
+                <!-- Add a playful icon or animation here -->
+            </ul>
+        </div>
+    </footer>
 
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
 
-
-				<!-- One -->
-				<section id="one" class="wrapper style3 fade-up">
-					<div class="inner">
-						<h2>Sometimes, I can't help but being a nerdy academic</h2>
-						<!-- Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.-->
-						<div class="features">
-							<section>
-								<span class="icon solid major fa-school"></span>
-								<h3>4.0 GPA</h3>
-								<p>It honestly took me sometime to overcome the challenges introduced by my challenging educational syste, but yeah, I managed to pull it off!</p>
-							</section>
-							<section>
-								<span class="icon solid major fa-lock"></span>
-								<h3>Aliquam sed nullam</h3>
-								<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-							</section>
-							<section>
-								<span class="icon solid major fa-cog"></span>
-								<h3>Sed erat ullam corper</h3>
-								<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-							</section>
-							<section>
-								<span class="icon solid major fa-desktop"></span>
-								<h3>Veroeros quis lorem</h3>
-								<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-							</section>
-
-						</div>
-					</div>
-				</section>
-
-
-				<!-- Two -->
-					<section id="two" class="wrapper style2 spotlights">
-						<section>
-							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Sed ipsum dolor</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Feugiat consequat</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Ultricies aliquam</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-					</section>
-				
-				
-
-				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up">
-						<div class="inner">
-							<h2>Get in touch</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
-							<div class="split style1">
-								<section>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
-											</div>
-											<div class="field half">
-												<label for="email">Email</label>
-												<input type="text" name="email" id="email" />
-											</div>
-											<div class="field">
-												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
-										</ul>
-									</form>
-								</section>
-								<section>
-									<ul class="contact">
-										<li>
-											<h3>Address</h3>
-											<span>12345 Somewhere Road #654<br />
-											Nashville, TN 00000-0000<br />
-											USA</span>
-										</li>
-										<li>
-											<h3>Email</h3>
-											<a href="#">user@untitled.tld</a>
-										</li>
-										<li>
-											<h3>Phone</h3>
-											<span>(000) 000-0000</span>
-										</li>
-										<li>
-											<h3>Social</h3>
-											<ul class="icons">
-												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-											</ul>
-										</li>
-									</ul>
-								</section>
-							</div>
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <script>
+        particlesJS("particles-container", { // Updated container ID
+            particles: {
+                // Particle configurations
+            },
+            interactivity: {
+                // Interactivity settings
+            },
+            retina_detect: true
+        });
+    </script>
+</body>
 </html>
