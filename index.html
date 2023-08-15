@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Youssef's Hyperworld</title>
+    <title>My little world</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -26,6 +26,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 20px; /* Add more margin to increase the distance */
 }
 
 /* Apply the funky font to headings */
@@ -52,12 +53,12 @@ p, span, div, a {
 .funky-name {
     font-family: 'Your Favourite Funky Font', cursive;
     font-size: 24px;
-    color: #953d75;
-    margin-top: 10px;
+    color: #b74e91;
     text-transform: uppercase;
     letter-spacing: 4px;
     animation: bounce 2s infinite;
 }
+
 
     @keyframes bounce {
         0%, 20%, 50%, 80%, 100% {
@@ -70,6 +71,15 @@ p, span, div, a {
             transform: translateY(-5px);
         }
     }
+
+    .funky-name-container {
+    height: 40px; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding-top: 20px; /* Add padding to increase the distance */
+}
 
     </style>
 </head>
@@ -84,11 +94,11 @@ p, span, div, a {
             <nav>
                 <ul>
                     <li><a href="#intro">Hey there!</a></li>
-                    <li><a href="#one">Academic Me</a></li>
-                    <li><a href="#two">Engineer's Den</a></li>
-                    <li><a href="#three">Geeky Side</a></li>
-                    <li><a href="#four">A fellow writer</a></li>
-                    <li><a href="#five">Afrikanist Explorer</a></li>
+                    <li><a href="#academic">Academic Me</a></li>
+                    <li><a href="#engineer">Engineer's Den</a></li>
+                    <li><a href="#geek">Geeky Side</a></li>
+                    <li><a href="#writer">A fellow writer</a></li>
+                    <li><a href="#afrikanist">Afrikanist Explorer</a></li>
                 </ul>
             </nav>
         </div>
@@ -99,13 +109,18 @@ p, span, div, a {
 
         <!-- Intro -->
         <section id="intro" class="wrapper style1 fullscreen fade-up colorful">
+            <div id="particles-js"></div>
             <div class="inner">
                 <div class="profile">
                     <div class="profile-image">
                         <img src="images\pic07.jpg" alt="" data-position="right">
-                        <div class="funky-name">
-                            <span class="typewriter"></span>
+
+                        <div class="funky-name-container">
+                            <div class="funky-name">
+                                <span class="typewriter"></span>
+                            </div>
                         </div>
+                        
                     </div>
                 </div>
                 
@@ -118,7 +133,8 @@ p, span, div, a {
         </section>
 
         <!-- One -->
-        <section id="one" class="wrapper style3 fade-up colorful">
+        <section id="academic" class="wrapper style3 fullscreen fade-up colorful section-with-particles">
+            <div id="particles-js"></div>
             <div class="inner">
                 <h2>Unveiling the Nerdy Academic</h2>
                 <!-- Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.-->
@@ -149,7 +165,7 @@ p, span, div, a {
 
 
         <!-- Two -->
-        <section id="two" class="wrapper style2 spotlights colorful">
+        <section id="engineer" class="wrapper style2 spotlights colorful">
             <section>
                 <a href="generic.html" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
                 <div class="content">
@@ -177,7 +193,7 @@ p, span, div, a {
 
 
         <!-- Three -->
-        <section id="three" class="wrapper style1 fade-up colorful">
+        <section id="geek" class="wrapper style1 fade-up colorful">
             <div class="inner">
                 <h2>I'm not much of a nerd, but still...</h2>
                 <div class="features">
@@ -206,7 +222,7 @@ p, span, div, a {
         </section>
 
         <!-- Four -->
-        <section id="four" class="wrapper style3 fade-up colorful">
+        <section id="writer" class="wrapper style3 fade-up colorful">
             <div class="inner">
                 <h2>I sometimes jot some stuff down...</h2>
                 <div class="features">
@@ -235,7 +251,7 @@ p, span, div, a {
         </section>
 
         <!-- Five -->
-        <section id="five" class="wrapper style2 spotlights colorful">
+        <section id="afrikanist" class="wrapper style2 spotlights colorful">
             <section>
                 <a href="#" class="image"><img src="images/pic05.jpg" alt="" data-position="center center" /></a>
                 <div class="content">
@@ -286,6 +302,8 @@ p, span, div, a {
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/particles.js"></script>
+
 
     <script>
     const names = ["Youssef", "Engineer", "Academic", "Afrikanist","Writer", "Nerd"]; // Add your different names here
@@ -319,6 +337,84 @@ p, span, div, a {
 
     // Start the animation
     setTimeout(typeNextCharacter, 500); // Adjust the i
+
+
+
+
+    particlesJS('particles-js', {
+    particles: {
+        number: {
+            value: 80, // Adjust the number of particles
+            density: {
+                enable: true,
+                value_area: 800 // Adjust the density of particles
+            }
+        },
+        color: {
+            value: ['#FF69B4', '#8A2BE2'] // Customize particle colors
+        },
+        shape: {
+            type: 'circle', // Change particle shape (circle, edge, triangle, polygon, star, image)
+        },
+        opacity: {
+            value: 0.6, // Adjust particle opacity
+            random: false,
+            anim: {
+                enable: false
+            }
+        },
+        size: {
+            value: 5, // Adjust particle size
+            random: true,
+            anim: {
+                enable: false
+            }
+        },
+        line_linked: {
+            enable: false // Disable lines between particles
+        },
+        move: {
+            enable: true,
+            speed: 3, // Adjust particle movement speed
+            direction: 'none',
+            random: false,
+            straight: false,
+            out_mode: 'out',
+            bounce: false,
+            attract: {
+                enable: true,
+                rotateX: 600,
+                rotateY: 1200
+            }
+        }
+    },
+    interactivity: {
+        detect_on: 'canvas',
+        events: {
+            onhover: {
+                enable: true,
+                mode: 'repulse' // Change interaction mode on hover (grab, bubble, repulse)
+            },
+            onclick: {
+                enable: true,
+                mode: 'push' // Change interaction mode on click (push, remove, bubble)
+            },
+            resize: true
+        },
+        modes: {
+            repulse: {
+                distance: 100, // Adjust repulsion distance
+                duration: 0.4
+            },
+            push: {
+                particles_nb: 4 // Adjust number of particles pushed on click
+            }
+        }
+    },
+    retina_detect: true
+});
+
+
     </script>
 </body>
 </html>

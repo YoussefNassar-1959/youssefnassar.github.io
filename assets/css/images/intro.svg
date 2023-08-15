@@ -1,29 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000px" height="500px" viewBox="0 0 1000 500" zoomAndPan="disable" preserveAspectRatio="none">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000px" height="500px" viewBox="0 0 1000 500" zoomAndPan="disable" preserveAspectRatio="none">
+        <style type="text/css"><![CDATA[
+            line {
+                stroke: rgba(0, 0, 0, 0.15); /* Slightly lighter color for a modern look */
+                stroke-width: 1px;
+            }
+        ]]></style>
 
-    <style type="text/css"><![CDATA[
-        line {
-            stroke: rgba(0, 0, 0, 0.15); /* Slightly lighter color for a modern look */
-            stroke-width: 1px;
-        }
-    ]]></style>
-
-    <g id="stripes">
-        <line x1="0" y1="0" x2="1000" y2="500" />
-        <line x1="-150" y1="100" x2="850" y2="600" />
-        <line x1="-150" y1="300" x2="850" y2="800" />
-        <line x1="-150" y1="500" x2="850" y2="1000" />
-        <line x1="150" y1="-100" x2="1150" y2="400" />
-        <line x1="150" y1="100" x2="1150" y2="600" />
-        <line x1="150" y1="300" x2="1150" y2="800" />
-        <line x1="150" y1="500" x2="1150" y2="1000" />
-        <line x1="450" y1="-100" x2="1450" y2="400" />
-        <line x1="450" y1="0" x2="1450" y2="500" />
-        <line x1="450" y1="200" x2="1450" y2="700" />
-        <line x1="450" y1="400" x2="1450" y2="900" />
-        <line x1="750" y1="-100" x2="1650" y2="400" />
-        <line x1="750" y1="0" x2="1650" y2="500" />
-        <line x1="750" y1="200" x2="1650" y2="700" />
-        <line x1="750" y1="400" x2="1650" y2="900" />
-    </g>
-
-</svg>
+        <g id="stripes">
+            <line x1="0" y1="0" x2="1000" y2="500" />
+            <line x1="-150" y1="100" x2="850" y2="600" />
+            <line x1="-150" y1="300" x2="850" y2="800" />
+            <line x1="-150" y1="500" x2="850" y2="1000" />
+            <line x1="150" y1="-100" x2="1150" y2="400" />
+            <line x1="150" y1="100" x2="1150" y2="600" />
+            <line x1="150" y1="300" x2="1150" y2="800" />
+            <line x1="150" y1="500" x2="1150" y2="1000" />
+            <line x1="450" y1="-100" x2="1450" y2="400" />
+            <line x1="450" y1="0" x2="1450" y2="500" />
+            <line x1="450" y1="200" x2="1450" y2="700" />
+            <line x1="450" y1="400" x2="1450" y2="900" />
+        </g>
+    </svg>
