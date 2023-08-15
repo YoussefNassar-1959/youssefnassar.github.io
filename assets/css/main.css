@@ -2892,6 +2892,7 @@ input, select, textarea {
 		line-height: 1.5em;
 	}
 
+
 /* Split */
 
 	.split {
@@ -3489,7 +3490,9 @@ input, select, textarea {
 		margin: 0 auto;
 	}
 
+
 /* Footer */
+
 
 	#sidebar + #wrapper + #footer {
 		margin-left: 18em;
@@ -3871,39 +3874,330 @@ input, select, textarea {
 		}
 
 /* Intro */
+#intro {
+    position: relative; /* Add this to establish a stacking context */
+    background: linear-gradient(45deg, #b1a99317, #ffffff00); /* Use white color for the background */
+    background-size: 400% 400%;
+    animation: animateBackground 15s linear infinite alternate;
+}
 
-	#intro {
-		background-attachment: fixed;
-		background-image: url("images/intro.svg");
-		background-position: top right;
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-	}
 
-		#intro p {
-			font-size: 1.25em;
-		}
+#particles-js {
+    /* Add or update the following properties */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; /* Increase the z-index to place particles above the waves */
+}
 
-			@media screen and (max-width: 980px) {
+@keyframes animateBackground {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
 
-				#intro p br {
-					display: none;
-				}
+#intro p {
+    font-size: 1.25em;
+}
 
-			}
+@media screen and (max-width: 980px) {
+    #intro p br {
+        display: none;
+    }
+}
 
-			@media screen and (max-width: 736px) {
+@media screen and (max-width: 736px) {
+    #intro p {
+        font-size: 1em;
+    }
+}
 
-				#intro p {
-					font-size: 1em;
-				}
+@media screen and (max-width: 1280px) {
+    #intro {
+        background-attachment: scroll;
+    }
+}
 
-			}
 
-		@media screen and (max-width: 1280px) {
 
-			#intro {
-				background-attachment: scroll;
-			}
 
-		}
+#academic {
+    position: relative; /* Add this to establish a stacking context */
+    background: linear-gradient(45deg, #b1a99317, #ffffff00); /* Use white color for the background */
+    background-size: 400% 400%;
+    animation: animateBackground 15s linear infinite alternate;
+}
+
+
+#particles-js {
+    /* Add or update the following properties */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; /* Increase the z-index to place particles above the waves */
+}
+
+@keyframes animateBackground {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+#intro p {
+    font-size: 1.25em;
+}
+
+@media screen and (max-width: 980px) {
+    #intro p br {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    #intro p {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #intro {
+        background-attachment: scroll;
+    }
+}
+
+
+
+#engineer {
+    position: relative; /* Add this to establish a stacking context */
+    background: linear-gradient(45deg, #b1a99317, #ffffff00); /* Use white color for the background */
+    background-size: 400% 400%;
+    animation: animateBackground 15s linear infinite alternate;
+}
+
+
+#particles-js {
+    /* Add or update the following properties */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; /* Increase the z-index to place particles above the waves */
+}
+
+@keyframes animateBackground {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+#intro p {
+    font-size: 1.25em;
+}
+
+@media screen and (max-width: 980px) {
+    #intro p br {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    #intro p {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #intro {
+        background-attachment: scroll;
+    }
+}
+
+
+#geek {
+    position: relative; /* Add this to establish a stacking context */
+    background: linear-gradient(45deg, #b1a99317, #ffffff00); /* Use white color for the background */
+    background-size: 400% 400%;
+    animation: animateBackground 15s linear infinite alternate;
+}
+
+
+#particles-js {
+    /* Add or update the following properties */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; /* Increase the z-index to place particles above the waves */
+}
+
+@keyframes animateBackground {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+#intro p {
+    font-size: 1.25em;
+}
+
+@media screen and (max-width: 980px) {
+    #intro p br {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    #intro p {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #intro {
+        background-attachment: scroll;
+    }
+}
+
+
+
+#writer {
+    position: relative; /* Add this to establish a stacking context */
+    background: linear-gradient(45deg, #b1a99317, #ffffff00); /* Use white color for the background */
+    background-size: 400% 400%;
+    animation: animateBackground 15s linear infinite alternate;
+}
+
+
+#particles-js {
+    /* Add or update the following properties */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; /* Increase the z-index to place particles above the waves */
+}
+
+@keyframes animateBackground {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+#intro p {
+    font-size: 1.25em;
+}
+
+@media screen and (max-width: 980px) {
+    #intro p br {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    #intro p {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #intro {
+        background-attachment: scroll;
+    }
+}
+
+
+
+
+
+#afrikanist {
+    position: relative; /* Add this to establish a stacking context */
+    background: linear-gradient(45deg, #b1a99317, #ffffff00); /* Use white color for the background */
+    background-size: 400% 400%;
+    animation: animateBackground 15s linear infinite alternate;
+}
+
+
+#particles-js {
+    /* Add or update the following properties */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; /* Increase the z-index to place particles above the waves */
+}
+
+@keyframes animateBackground {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+#intro p {
+    font-size: 1.25em;
+}
+
+@media screen and (max-width: 980px) {
+    #intro p br {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    #intro p {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #intro {
+        background-attachment: scroll;
+    }
+}
+
+
+
+/* Set the particles container as the background */
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Move the particles behind other elements */
+}
+
+
+/* Style the sections with particles background */
+.section-with-particles {
+    position: relative;
+    padding: 50px 0; /* Adjust padding as needed */
+    background-color: rgba(255, 255, 255, 0.9); /* Set a background color for sections */
+    z-index: 0; /* Place sections above the particles */
+}
+
