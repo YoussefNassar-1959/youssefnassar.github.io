@@ -54,6 +54,7 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
+
 mark {
 	background-color: transparent;
 	color: inherit;
@@ -4185,19 +4186,19 @@ input, select, textarea {
 /* Set the particles container as the background */
 #particles-js {
     position: fixed;
-    top: 0;
-    left: 0;
+    /*top: 0;*/
+    /*left: 0;*/
     width: 100%;
     height: 100%;
-    z-index: -1; /* Move the particles behind other elements */
+	display: flex;
+	overflow: hidden;
+    overflow-y: scroll;
+    list-style-type:none;
+    display: flex;
+    flex-flow: column;
+    z-index: -100;
 }
 
 
-/* Style the sections with particles background */
-.section-with-particles {
-    position: relative;
-    padding: 50px 0; /* Adjust padding as needed */
-    background-color: rgba(255, 255, 255, 0.9); /* Set a background color for sections */
-    z-index: 0; /* Place sections above the particles */
-}
+
 
