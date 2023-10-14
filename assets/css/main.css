@@ -4027,6 +4027,59 @@ input, select, textarea {
 }
 
 
+
+#Business {
+    position: relative; /* Add this to establish a stacking context */
+    background: linear-gradient(45deg, #b1a99317, #ffffff00); /* Use white color for the background */
+    background-size: 400% 400%;
+    animation: animateBackground 15s linear infinite alternate;
+}
+
+
+#particles-js {
+    /* Add or update the following properties */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; /* Increase the z-index to place particles above the waves */
+}
+
+@keyframes animateBackground {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+#intro p {
+    font-size: 1.25em;
+}
+
+@media screen and (max-width: 980px) {
+    #intro p br {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    #intro p {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #intro {
+        background-attachment: scroll;
+    }
+}
+
+
+
+
 #geek {
     position: relative; /* Add this to establish a stacking context */
     background: linear-gradient(45deg, #b1a99317, #ffffff00); /* Use white color for the background */
