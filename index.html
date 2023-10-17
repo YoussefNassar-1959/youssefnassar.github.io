@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="assets/css/noscript.css" />
     </noscript>
     <script src="assets/js/particles.js"></script> <!-- Include particles.js library -->
+    <script src="https://unpkg.com/feather-icons"></script>
 
     <!-- Your styles -->
     <style>
@@ -126,11 +127,9 @@ p, span, div, a {
     transform: translateY(0);
 }
 
-
+        
     </style>
       <link rel="shortcut icon" type="image/png" href="images/icon.png">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 
 </head>
 
@@ -202,21 +201,25 @@ p, span, div, a {
         <!-- One -->
         <section id="academic" class="wrapper style3 fullscreen fade-up colorful section-with-particles">
             <div class="inner">
-                <!-- Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.-->
                 <div class="features">
                     <section>
-                        <span class="icon solid major fa-school"></span>
-        
-                        <h3>4.0 GPA</h3>
+                        <div class="icon solid major">
+                            <span class="fas fa-student"></span>
+                        </div>
+                            <h3>4.0 GPA</h3>
+                        
                         <p>Managed to get A's in nearly all STEM and humanities subjects with occasional B+'s. Consistently, getting the highest grades in Physics and Applied Mathematics</p>
                     </section>
                     <section>
-                        <span class="icon solid major fa-lightbulb"></span>
+                        
+                        <div class="icon solid major">
+                            <span data-feather="lightbulb"></span>
+                        </div>
                         <h3>Research</h3>
                         <p>Wrote 2 publications in engineering. I co-authored a <a href="https://drive.google.com/file/d/1ncKp0yQjWhqud51bQo4myyUfjztY4Ht-/view?usp=sharing" target="_blank">paper</a> in Biomedical Engineeirng in the Youth Science Journal (YSJ). Wrote a <a href="https://drive.google.com/file/d/1LGiy8Qj5njiGNr1DFTKwq5rhAAddiiPB/view?usp=sharing" target="_blank">study</a> computationally analyzing the effects of stress on optical waveguides with <i>Pioneer Academics Research Program</i>.</p>
                     </section>
                     <section>
-                        <span class="icon solid major fa-cogs"></span>
+                        <i data-feather="bell"></i>
                         <h3>ACT</h3>
                         <p>While, standardized tests are not my thing, I was able to score high in ACT English (34), English (34), and Math (33)</p>
                     </section>
@@ -289,7 +292,7 @@ p, span, div, a {
             <div class="inner">
                 <div class="features">
                     <section>
-                        <span class="icon solid major fa-school"></span>
+                        <span class="icon solid major fa-"></span>
                         <h3>Manga</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem maxime voluptas possimus labore praesentium esse similique voluptate magnam explicabo perspiciatis, earum excepturi! Aut quis autem numquam ipsa, rem ratione porro?</p>
                     </section>
@@ -431,8 +434,12 @@ p, span, div, a {
 
 
 
+    feather.replace();
+
+
 
 particlesJS("particles-js", {"particles":{"number":{"value":160,"density":{"enable":true,"value_area":800}},"color":{"value":"#b74e91"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":1,"random":true,"anim":{"enable":true,"speed":1,"opacity_min":0,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":4,"size_min":0.3,"sync":false}},"line_linked":{"enable":false,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":1,"direction":"none","random":true,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":600}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"bubble"},"onclick":{"enable":true,"mode":"repulse"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":250,"size":0,"duration":2,"opacity":0,"speed":3},"repulse":{"distance":400,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
+
 
     </script>
 </body>
