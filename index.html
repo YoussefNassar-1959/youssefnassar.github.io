@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.css">
     </noscript>
     <script src="assets/js/particles.js"></script> <!-- Include particles.js library -->
-    <script src="https://unpkg.com/feather-icons"></script>
+    
 
     <!-- Your styles -->
     <style>
@@ -148,7 +149,7 @@ p, span, div, a {
                     <li><a href="#Business">Business office</a></li>
                     <li><a href="#geek">Geeky basement</a></li>
                     <li><a href="#writer">Pen & Paper</a></li>
-                    <li><a href="#afrikanist">African corner</a></li>
+                    <!--li><a href="#afrikanist">African corner</a></li-->
                 </ul>
             </nav>
         </div>
@@ -203,28 +204,28 @@ p, span, div, a {
             <div class="inner">
                 <div class="features">
                     <section>
-                        <div class="icon solid major">
-                            <span class="fas fa-student"></span>
-                        </div>
+                        <span class="icon solid major fa-"></span>
                             <h3>4.0 GPA</h3>
-                        
                         <p>Managed to get A's in nearly all STEM and humanities subjects with occasional B+'s. Consistently, getting the highest grades in Physics and Applied Mathematics</p>
                     </section>
                     <section>
-                        
                         <div class="icon solid major">
-                            <span data-feather="lightbulb"></span>
+                            <span class="fa-student"></span>
                         </div>
                         <h3>Research</h3>
-                        <p>Wrote 2 publications in engineering. I co-authored a <a href="https://drive.google.com/file/d/1ncKp0yQjWhqud51bQo4myyUfjztY4Ht-/view?usp=sharing" target="_blank">paper</a> in Biomedical Engineeirng in the Youth Science Journal (YSJ). Wrote a <a href="https://drive.google.com/file/d/1LGiy8Qj5njiGNr1DFTKwq5rhAAddiiPB/view?usp=sharing" target="_blank">study</a> computationally analyzing the effects of stress on optical waveguides with <i>Pioneer Academics Research Program</i>.</p>
+                        <p>Wrote 2 publications in engineering. I co-authored a <a href="https://drive.google.com/file/d/1ncKp0yQjWhqud51bQo4myyUfjztY4Ht-/view?usp=sharing" target="_blank"><b>paper</b></a> in Biomedical Engineeirng in the Youth Science Journal (YSJ). Wrote a <a href="https://drive.google.com/file/d/1LGiy8Qj5njiGNr1DFTKwq5rhAAddiiPB/view?usp=sharing" target="_blank"><b>study</b></a> computationally analyzing the effects of stress on optical waveguides with <i>Pioneer Academics Research Program</i>.</p>
                     </section>
                     <section>
-                        <i data-feather="bell"></i>
+                        <div class="icon solid major">
+                            <span class="fa-student"></span>
+                        </div>
                         <h3>ACT</h3>
                         <p>While, standardized tests are not my thing, I was able to score high in ACT English (34), English (34), and Math (33)</p>
                     </section>
                     <section>
-                        <span class="icon solid major fa-gamepad"></span>
+                        <div class="icon solid major">
+                            <span class="fa-student"></span>
+                        </div>
                         <h3>8.0 IELTS</h3>
                         <p>With a strong command of English, I scored 8.0 in both Reading and Listening; 7.5 in Writing and Speaking</p>
                     </section>
@@ -238,21 +239,50 @@ p, span, div, a {
             <section>
                 <!--a href="generic.html" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a-->
                 <div class="content">
-
-                    <div class="inner">
-                        <h2>Project #01</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci corrupti quisquam distinctio quae ad itaque debitis sunt odio nesciunt expedita voluptas quas temporibus harum id, totam odit nihil. Quae, exercitationem.</p>
-                        <ul class="actions">
-                          
-                        </ul>
-                    </div>
                     
                     <div class="inner">
-                        <h2>Project #02</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci corrupti quisquam distinctio quae ad itaque debitis sunt odio nesciunt expedita voluptas quas temporibus harum id, totam odit nihil. Quae, exercitationem.</p>
+                        <h2>Fully functional 8-bit processor</h2>
+                        <p>I built a processor able to store and process 8 bits in one instruction. It was developed using Logisim opensource circuit simulator software. This processor can handle a variety of simple arithmetic tasks. It's a project aimed for demystifying the inner workings of computers. </p>
                         <ul class="actions">
                         </ul>
                     </div>
+
+                    <div class="inner">
+                        <h2>Custom-built Finite Element Solver</h2>
+                        <p>I've developed software for 2D finite element stress analysis, which enables the investigation of stress distribution in a 2D plane using the plane strain approximation method. This approach is widely employed in engineering and materials science. The software offers a comprehensive set of tools for stress analysis, including stress visualization. </p>
+                        <ul class="actions">
+                        </ul>
+                    </div>
+
+                    <div class="inner">
+                        <h2>Fault diagnosis of DC motors</h2>
+                        <p>A fault diagnosis software I built using ESP32 development board. The software analyzes current consumption patterns of industrial DC motors, compiling diagnostic reports about their health and shuts them off in case of extreme emergency. In the Egyptian IoT & AI challenge, the project placed top 5% out of 200+ teams</p>
+                        <ul class="actions">
+                        </ul>
+                    </div>
+
+                    <div class="inner">
+                        <h2>Computational analysis of optical waveguide</h2>
+                        <p>Using COMSOL Multiphysics, an industry-standard physics simulation software, I simulated the stresses affecting Buried-Square Core Silicon Waveguide due to thermal mismatching. Additionall, I estimated the alterations in the optical performance of the device. According to my analysis, I concluded that tailoring the thermally-induced stresses could be tailored to optimize device performance.</p>
+                        <ul class="actions">
+                        </ul>
+                    </div>
+
+                    <div class="inner">
+                        <h2>MachDesigner</h2>
+                        <p>I built a fun-to-use software application enabling hobbyist designers create their own photonic circutis. I built it with a user-friendly GUI, requiring not coding experience. The software could accelerate the development of this rather overlooked field of technology.</p>
+                        <ul class="actions">
+                        </ul>
+                    </div>
+
+
+                    <div class="inner">
+                        <h2>Computational astrophysics simulations</h2>
+                        <p>In British Physics Olympaids (BPhO) computational physics, I developed Python code verifying Kepler's laws, computing and plotting elliptical orbits of planets, creating 2D and 3D animations of planetary orbits, and using Simpson's numeric integration method to determine how orbital time varies with polar angle. Further, a Solar System spirograph was plotted, where a pair of planets are chosen and their orbits are plotted against time. The set of simulations got me a gold medal in the competition.</p>
+                        <ul class="actions">
+                        </ul>
+                    </div>
+
                 </div>
             </section>
             <!-- Add similar sections for more vibrant content -->
@@ -267,16 +297,16 @@ p, span, div, a {
                         <div class="content">
         
                             <div class="inner">
-                                <h2>Project #01</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci corrupti quisquam distinctio quae ad itaque debitis sunt odio nesciunt expedita voluptas quas temporibus harum id, totam odit nihil. Quae, exercitationem.</p>
+                                <h2>IoT & Web developer at HyperSystems</h2>
+                                <p>In grade 10 summer break, I worked for 2 month as the IoT & Web developer in a smart systems company in Cairo, Egypt. With a smart bee house I co-built, we won the first place in EBTEKAR Agriculture startup competition.</p>
                                 <ul class="actions">
                                    
                                 </ul>
                             </div>
                             
                             <div class="inner">
-                                <h2>Project #02</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci corrupti quisquam distinctio quae ad itaque debitis sunt odio nesciunt expedita voluptas quas temporibus harum id, totam odit nihil. Quae, exercitationem.</p>
+                                <h2>CTO of AdveLive</h2>
+                                <p>I co-founded a startup in advertisment, AdveLive, with a friend of mine. The startup links companies and users willing to rent their personal spaces as advertisment areas. Responsible for the technical aspect, I developed a universal online platform to run our service.</p>
                                 <ul class="actions">
                      
                                 </ul>
@@ -292,22 +322,30 @@ p, span, div, a {
             <div class="inner">
                 <div class="features">
                     <section>
-                        <span class="icon solid major fa-"></span>
+                        <div class="icon solid major">
+                            <span class="fa-student"></span>
+                        </div>
                         <h3>Manga</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem maxime voluptas possimus labore praesentium esse similique voluptate magnam explicabo perspiciatis, earum excepturi! Aut quis autem numquam ipsa, rem ratione porro?</p>
                     </section>
                     <section>
-                        <span class="icon solid major fa-lightbulb"></span>
+                        <div class="icon solid major">
+                            <span class="fa-student"></span>
+                        </div>
                         <h3>Music</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere libero delectus molestiae nostrum cupiditate aspernatur sed cumque. Iusto, enim. Numquam mollitia itaque maiores quod exercitationem atque error rem cum quae.</p>
                     </section>
                     <section>
-                        <span class="icon solid major fa-cogs"></span>
+                        <div class="icon solid major">
+                            <span class="fa-student"></span>
+                        </div>
                         <h3>Novels</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, alias ipsam dolorem quo nam sed, impedit nobis officia saepe quod aliquam vitae nisi quae deserunt id delectus sunt! Nam, reiciendis.</p>
                     </section>
                     <section>
-                        <span class="icon solid major fa-code"></span>
+                        <div class="icon solid major">
+                            <span class="fa-student"></span>
+                        </div>
                         <h3>Woodwork</h3>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius quae animi cumque est nostrum officiis, maiores mollitia, molestiae minima assumenda quod. Cupiditate id amet, quibusdam blanditiis at deleniti molestiae dolorum.</p>
                     </section>
@@ -321,22 +359,30 @@ p, span, div, a {
                 
                 <div class="features">
                     <section>
-                        <span class="icon solid major fa-flask"></span>
+                        <div class="icon solid major">
+                            <span class="fa-student"></span>
+                        </div>
                         <h3>Experimental Explorer</h3>
                         <p>Delving into the realms of science, I conduct wild experiments that challenge the laws of nature.</p>
                     </section>
                     <section>
-                        <span class="icon solid major fa-gamepad"></span>
+                        <div class="icon solid major">
+                            <span class="fa-student"></span>
+                        </div>
                         <h3>Virtual Adventurer</h3>
                         <p>Embark on virtual quests and unravel the mysteries of digital worlds as a true gaming champion.</p>
                     </section>
                     <section>
-                        <span class="icon solid major fa-gamepad"></span>
+                        <div class="icon solid major">
+                            <span class="fa-student"></span>
+                        </div>
                         <h3>Virtual Adventurer</h3>
                         <p>Embark on virtual quests and unravel the mysteries of digital worlds as a true gaming champion.</p>
                     </section>
                     <section>
-                        <span class="icon solid major fa-gamepad"></span>
+                        <div class="icon solid major">
+                            <span class="fa-student"></span>
+                        </div>
                         <h3>Virtual Adventurer</h3>
                         <p>Embark on virtual quests and unravel the mysteries of digital worlds as a true gaming champion.</p>
                     </section>
@@ -344,10 +390,10 @@ p, span, div, a {
             </div>
         </section>
 
-        <!-- Five -->
-        <section id="afrikanist" class="wrapper style2 spotlights colorful">
+        <!-- Five-->
+        <!--section id="afrikanist" class="wrapper style2 spotlights colorful">
             <section>
-                <!--a href="#" class="image"><img src="images/pic05.jpg" alt="" data-position="center center" /></a-->
+                <a href="#" class="image"><img src="images/pic05.jpg" alt="" data-position="center center" /></a>
                 <div class="content">
                     <div class="inner">
                         <h2>Exploring Afrikanist Adventures</h2>
@@ -373,8 +419,8 @@ p, span, div, a {
 
                 </div>
             </section>
-            <!-- Add similar sections for more vibrant content -->
-        </section>
+            <Add similar sections for more vibrant content>
+        </section-->
 
     </div>
 
