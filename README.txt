@@ -1,1 +1,1 @@
-My little world
+World
